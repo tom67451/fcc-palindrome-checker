@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Tom's Palindrome Checker</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main>
+      
+      
+      <div class="main-element">
+        <h1 id='title'>Is it a palindrome?</h1>
+        <p id='subtitle'>🦋 Discover Palindromes ♾️</p>
+        <form action="submit_page.html" method="post">
+          <input id="text-input" type="text" placeholder="Enter text">
+          <button type="submit" id="check-btn">Submit</button>
+          <button type="button" id="whatIsPButton">▼ What is palindrome? ▼</button>
+        </form>
+      </div>
+      <div id="whatisp" class="hidden">
+        <p id='title2'>What is palindrome?</p>
+        <p id='text'>A palindrome is a word, phrase, number, or sequence of characters that reads the same backward as it does forward, ignoring spaces, punctuation, and capitalization.</p>
+        <p id='title2'>Examples:</p>
+        <ul>
+          <li>"madam"</li>
+          <li>"level"</li>
+        </ul>
+      </div>
+      <div id="result"></div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
